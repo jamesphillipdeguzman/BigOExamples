@@ -11,5 +11,7 @@
         int num = 12;
         int index = BinarySearchExample.BinarySearch(arr, num);
         Console.WriteLine($"Binary search found {num} at index {index}");
+
+        BubbleSort.Run();
     }
 }
